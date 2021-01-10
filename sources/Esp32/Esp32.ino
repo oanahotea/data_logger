@@ -96,8 +96,7 @@ void loop() {
   
   float supplyVoltage   = emon1.Vrms; 
  
-    
-    // Valoarea este convertită intr-un șir de caractere
+
     char tempString[8];
     dtostrf(supplyVoltage, 1, 2, tempString);
     Serial.print("Voltage: ");
